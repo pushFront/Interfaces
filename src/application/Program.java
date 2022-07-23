@@ -35,7 +35,7 @@ public class Program {
         RentalService rentalService = new RentalService(pricePerDay, pricePerHour, new BrazilTaxService());
 
         rentalService.processInvoice(cr);
-        
+
         System.out.println();
 
         System.out.println("INVOICE:");
